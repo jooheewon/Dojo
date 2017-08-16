@@ -1,0 +1,145 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.header_text {
+  font-size: 28px;
+  color: Black
+}
+
+.section {
+  font-size: 20px;
+  color: white;
+  padding: 10px 0px 0px 20px;
+}
+
+.section_1 {
+  font-size: 17px;
+  color: black;
+  padding: 10px 0px 0px 20px;
+}
+
+.section_2 {
+  font-size: 15px;
+  padding: 10px;
+}
+
+.footer_txt {
+  font-size: 14px;
+  padding: 10px 0px 0px 0px;
+}
+
+.language img {
+  margin: 8px;
+}
+
+.button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 60px 0px 90px;
+}
+
+#header {
+  width: 1000px;
+  height: 60px;
+  background: linear-gradient(-90deg, white, grey);
+}
+
+#header_logo {
+  width: 400px;
+  height: auto;
+  padding: 15px 30px;
+  float: left;
+}
+
+#header_right {
+  width: 500px;
+  height: auto;
+  padding: 15px;
+  float: right;
+  vertical-align: top;
+}
+
+#main {
+  width: 980px;
+  height: 820px;
+  background: linear-gradient(90deg, brown, pink);
+  align-content: center;
+  padding: 20px 0px 20px 20px;
+}
+
+#pic {
+  width: 355px;
+  height: 290px;
+  background-color: white;
+  display: inline-block;
+  margin: 0px 20px 20px 0px;
+  padding: 5px;
+  vertical-align: top;
+}
+
+#about {
+  width: 575px;
+  height: 300px;
+  background: linear-gradient(90deg, white, purple);
+  display: inline-block;
+  margin: 0px 0px 20px 0px
+}
+
+#about_title {
+  width: 575px;
+  height: 40px;
+  background: linear-gradient(-90deg, white, grey);
+}
+
+#section1 {
+  width: 305px;
+  height: 500px;
+  background: linear-gradient(90deg, white, purple);
+  display: inline-block;
+  margin: 0px 20px 0px 0px;
+}
+
+#sec1_title {
+  width: 305px;
+  height: 40px;
+  background: linear-gradient(-90deg, white, grey);
+}
+
+#section2 {
+  width: 305px;
+  height: 500px;
+  background: linear-gradient(90deg, white, purple);
+  display: inline-block;
+  margin: 0px 20px 0px 0px;
+}
+
+#sec2_title {
+  width: 305px;
+  height: 40px;
+  background: linear-gradient(-90deg, white, grey);
+}
+
+#section3 {
+  width: 305px;
+  height: 500px;
+  background: linear-gradient(90deg, white, purple);
+  display: inline-block;
+}
+
+#sec3_title {
+  width: 305px;
+  height: 40px;
+  background: linear-gradient(-90deg, white, grey);
+}
+
+#footer {
+  width: 1000px;
+  height: 80px;
+  background-color: grey;
+}
