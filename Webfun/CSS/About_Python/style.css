@@ -1,0 +1,204 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+input[type=text] {
+    width: 130px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 100%;
+}
+
+.header {
+  width: 970px;
+  background-color: #155679;
+  color: white;
+  padding: 0px 0px 30px 40px;
+}
+
+.main_1 {
+  width: 970px;
+  background-color: #155679;
+  position: static;
+  padding: 20px;
+  text-align: center;
+}
+
+.main_2 {
+  width: 970px;
+  height: 300px;
+  padding: 20px;
+  text-align: center;
+  font-family: "Courier New", Georgia, monospace;
+}
+
+.main_2 a:link {
+  color: #72A3D3;
+}
+
+.main_2 a:visited {
+  color: #72A3D3;
+}
+
+.footer {
+  width: 970px;
+  align-items: center;
+  background-color: #155679;
+  text-align: center;
+  padding: 20px;
+}
+
+.subtitle {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+
+#header {
+  width: auto;
+  height: 80px;
+}
+
+#header_logo {
+  width: 400px;
+  height: 50px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#header_search {
+  width: 200px;
+  background-color: grey;
+  border-radius: 15px;
+  padding: 10px;
+  display: inline-block;
+  box-shadow: 5px 5px black;
+  margin: 10px 700px;
+}
+
+#navigation {
+  width: 900px;
+  list-style: none;
+  background-color: #437FBB;
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: "Courier New", Georgia, monospace;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  margin: 80px 0px auto;
+  box-shadow: 5px 5px black;
+}
+
+#menu {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  color: white;
+  float: left;
+  margin-left: 100px;
+  font-family: "Courier New", Georgia, monospace;
+}
+
+#menu a{
+  color: inherit;
+}
+
+#content {
+  width: 600px;
+  height: 200px;
+  display: inline-block;
+}
+
+#main_txt1 {
+  color: white;
+  padding: 0px 0px 20px 0px;
+  font-family: "Courier New", georgia, monospace;
+  font-size: 14px;
+}
+
+#main_txt2 {
+  color: yellow;
+  font-size: 20px;
+  font-style: italic;
+  font-family: "Courier New", Georgia, monospace;
+}
+
+#main_txt3 {
+  color: white;
+  font-size: 20px;
+  font-family: "Courier New", Georgia, monospace;
+}
+
+#subcontent1 {
+  width: 300px;
+  height: 160px;
+  display: inline-block;
+  padding: 10px;
+  margin: 0px 70px 0px 0px;
+  vertical-align: top;
+}
+
+#subcontent2 {
+  width: 400px;
+  height: 160px;
+  display: inline-block;
+  padding: 10px;
+  vertical-align: top;
+}
+
+#subcontent3 {
+  width: 970px;
+  background-color: #155679;
+  padding: 20px;
+  text-align: center;
+  color: #72A3D3;
+  justify-content: space-around;
+}
+
+#subcontent3 a{
+  text-decoration: none;
+  color: inherit;
+}
+
+#sub3_1 {
+  width: 200px;
+  height: 20px;
+  display: inline-block;
+  padding-left: 0px 20px;
+}
+
+#sub3_2 {
+  width: 200px;
+  height: 20px;
+  display: inline-block;
+}
+
+#sub3_3 {
+  width: 200px;
+  height: 20px;
+  display: inline-block;
+}
+
+#search {
+  margin-left: 730px;
+}
+
+#search a:link{
+  color: yellow;
+}
+
+#button {
+  background-color: #155679;
+  color: white;
+  padding: 0px 10px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 1px black;
+  display: inline-block;
+  font-size: 14px;
+}
