@@ -2,13 +2,14 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <script type="text/javascript" src="RandomChance.js">
-      function playSlots(numOfQuarters){
-        while(numOfQuarters > 0){
+    <script type="text/javascript">
+
+      function randomChance(Quarters){
+        while(Quarters > 0){
           var win = Math.floor(Math.random()*100);
           if(win > 1){
-            var amountWon = Math.random()*50 + 50
-            return amountWon + numOfQuarters
+            var Won = Math.random()*50 + 50
+            return Won + Quarters
           }
         }
         return 0
