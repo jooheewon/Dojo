@@ -4,22 +4,25 @@
 	<meta charset="utf-8" />
 	<meta name="description" content="jQuery assignment">
 	<title>Ninja to Cat</title>
+	<link rel="stylesheet" href="Ninja_to_Cat.css">
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script>
 		$(document).ready(function(){
 			$('img').click(function(){
-				$(this).attr('temp', $(this).attr('src'));
-				$(this).attr('src', $(this).attr('alt-src'));
-				$(this).attr('alt-src', $(this).attr('temp'));
-			});
-		});
+				console.log('data-alt-src value is', $(this).attr('data-alt-src'));
+				$(this).attr('data-alt-src');
+			})
+		})
+
 	</script>
 </head>
 <body>
-	<img src="image/cat0.png" alt-src='image/ninja0.png' temp=""><br>
-	<img src="image/cat1.png" alt-src='image/ninja1.png' temp=""><br>
-	<img src="image/cat2.png" alt-src='image/ninja2.png' temp=""><br>
-	<img src="image/cat3.png" alt-src='image/ninja3.png' temp=""><br>
-	<img src="image/cat4.png" alt-src='image/ninja4.png' temp="">
+	<div class="picture">
+		<img src="image/cat0.png" data-alt-src="image/ninja0.png">
+		<img src="image/cat1.png" data-alt-src="image/ninja1.png">
+		<img src="image/cat2.png" data-alt-src="image/ninja2.png">
+		<img src="image/cat3.png" data-alt-src="image/ninja3.png">
+		<img src="image/cat4.png" data-alt-src="image/ninja4.png">
+	</div>
 </body>
 </html>

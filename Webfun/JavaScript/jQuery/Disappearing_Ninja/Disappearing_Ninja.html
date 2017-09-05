@@ -6,12 +6,16 @@
 		<link rel="stylesheet">
 		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 		<script type="text/javascript">
-			$(document).on('click', 'img', function(){
-				$(this).hide();
+			$(document).ready(function(){
+				$('img').click(function(){
+					$(this).hide();
+				});
 				$('button').click(function(){
 					$('img').show();
-				});
+				})
 			});
+
+
 		</script>
 	</head>
 	<body>

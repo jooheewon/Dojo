@@ -6,31 +6,42 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script>
       $(document).ready(function(){
-        
+        $('button.1').click(function(){
+          $('h1, h2, h3').toggle(function(){
+          });
+        });
+
+        $('#slideDown').click(function(){
+          $('')
+        });
+
       })
     </script>
   </head>
   <body>
+    <button class="1">Hide, Show, Toggle by clicking function</button>
+    <h1>.Hide</h1>
+    <h2>.Show</h2>
+    <h3>.Toggle</h3>
 
+    <button class="2">testing 2</button>
+    <p id='slideDown'>.slideDown</p>
+    <p id='slideUp'>.slideUp</p>
+    <p id='slideToggle'>.slideToggle</p>
+    <p id='fadein'>Fade in</p>
+    <p id='fadeout'>Fade Out</p>
+    <p id='addClass'>Add Class</p>
+
+
+    <p id='before'>Before</p>
+    <p id='after'>After</p>
+    <p id='append'>Append</p>
+    <p id='html'>HTML</p>
+    <p id='attr'></p>
+    <p id='val'></p>
+    <p id='text'></p>
+    <p id='data'></p>
 
 
   </body>
 </html>
-\\\.click
-.hide
-.show
-.toggle
-.slideDown
-.slideUp
-.slideToggle
-.fadeIn
-.fadeOut
-.addClass
-.before
-.after
-.append
-.html
-.attr
-.val
-.text
-.data

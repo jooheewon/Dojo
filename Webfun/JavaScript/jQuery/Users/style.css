@@ -1,0 +1,41 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  border: 1px dotted green;
+}
+
+.table {
+  margin: 10px;
+  width: 700px;
+  height: auto;
+  border: 1px solid black;
+}
+
+li {
+  display: inline-flex;
+}
+
+ul {
+  justify-content: space-around;
+  margin-right: 80px;
+}
+
+.form {
+  margin: 10px;
+  width: 500px;
+  height: auto;
+}
+
+.form p {
+  margin-top: 10px;
+  padding-right: 200px;
+  text-align: right;
+}
+
+button {
+  margin-left: 250px;
+  width: 80px;
+  height: 20px;
+  border-radius: 5px;
+  border: 1px solid black;
+}

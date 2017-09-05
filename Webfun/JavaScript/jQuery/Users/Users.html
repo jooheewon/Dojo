@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Users</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $('.add').click(function(){
+          $('#first, #last, #email, #contact').append();
+        })
+      })
+
+    </script>
+  </head>
+  <body>
+    <div class="table">
+      <li>
+        <ul>First Name</ul>
+        <ul>Last Name</ul>
+        <ul>Email Address</ul>
+        <ul>Contact #</ul>
+      </li>
+    </div>
+
+
+    <div class="form">
+      <h1>Add User</h1>
+      <p id="first">First Name: <input value="First Name">
+      <p id="last">Last Name: <input value="Last Name"></p>
+      <p id="email">Email Address: <input value="Email Address"></p>
+      <p id="contact">Contact No.: <input value="Phone #"></p>
+    </div>
+    <button id="add">Add User</button>
+
+  </body>
+</html>
