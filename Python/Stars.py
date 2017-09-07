@@ -1,6 +1,6 @@
-x = [4, 6, 1, 3, 5, 7, 25]
+def draw_stars(num):
+    for i in num:
+        print "*" * i
 
-def draw_stars(x):
-    for i in range(0,len(x)):
-        print "*" * x
-        
+number = [4, 6, 1, 3, 5, 7, 25]
+draw_stars(number)
