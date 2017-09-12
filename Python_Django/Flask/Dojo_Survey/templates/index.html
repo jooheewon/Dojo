@@ -5,7 +5,14 @@
     <title>Dojo Survey</title>
   </head>
   <body>
-    <form action="/result/name/location/language/comment" method="post">
+    {% with messages = get_flashed_messages() %}
+      {% if messages %}
+        {% for message in messages %}
+          <p>{{message}}</p>
+        {% endfor %}
+      {% endif %}
+    {% endwith %}
+    <form action="/process" method="post">
       Your Name: <input type="text" name="name"><br>
       Dojo Location: <select name="location">
         <option value="sanjose">San Jose</option>

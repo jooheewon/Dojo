@@ -2,16 +2,16 @@ from flask import Flask, render_template, request, redirect, session
 
 app = Flask(__name__)
 app.secret_key = 'ThisIsSecret'
-app.count = 0
 
 @app.route('/')
 def index():
-    session['count'] += 1
+    if 'count' not in session:
+        session['count'] = 0
     return render_template('index.html', count=session['count'])
 
 @app.route('/inclement', methods=['POST'])
 def inclement():
-    session['count'] += 1
+    session['count'] += 2
     return redirect('/')
 
 @app.route('/reset', methods=['POST'])
