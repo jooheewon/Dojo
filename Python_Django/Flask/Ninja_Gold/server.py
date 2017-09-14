@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request, redirect, session
 app = Flask(__name__)
-app.secret_key="charles_barkley"
+app.secret_key="ThisIsSecret"
 from datetime import datetime
 import random
 
