@@ -3,7 +3,7 @@ from mysqlconnection import MySQLConnector
 
 app = Flask(__name__)
 mysql = MySQLConnector(app,'friendsdb')
-
+ 
 @app.route('/')
 def index():
     query = "SELECT * FROM friends"                           # define your query
